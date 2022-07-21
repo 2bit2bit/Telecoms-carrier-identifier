@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="test.js" defer></script>
+    <link rel="stylesheet" href="test.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonie: circle-270</title>
+    <link rel="shortcut icon" href="img/default.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h3>TELCOMS CARRIER IDENTIFIER</h3>
+
+    <section>
+      <img id="logo" src="img/default.png" alt="logo" />
+
+      <form onsubmit="return false;">
+        <p id="respondsMessage">--</p>
+        <input
+          type="tel"
+          id="phoneNumber"
+          name="phone"
+          placeholder="08012345678"
+        />
+        <input id="identify-btn" type="button" value="Identify" />
+      </form>
+
+      <span id="advance-setting__toggle">advance settings &#x2699;</span>
+      <div class="advance-setting" style="height: 0px; padding: 0px 1rem">
+        <input id="mtn" type="button" value="MTN" />
+        <input id="glo" type="button" value="GLO" />
+        <input id="airtel" type="button" value="Airtel" />
+        <input id="9mobile" type="button" value="9mobile" />
+      </div>
+    </section>
+    <footer>@2bit2bit</footer>
+  </body>
+</html>
